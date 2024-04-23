@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Login And Registration From</title>
+<link rel="stylesheet" href="css/style1.css"><link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name=viewport" content="width=device-width, initial-scal=1">
+<link href="https://fonts.googleapis.com/css?family=kaushan+Script|Poppins&display=swap" rel="stylesheet">
+<script src="http://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js">
+</script>
+</head>
+<body>
+<div id="sideNav">
+                 <nav>
+                       <ul>
+                           <li><a href="Dbuge_index.html">Home</a></li>
+                           <li><a href="form.html">Registration</a></li> 
+                           <li><a href="Dbuge_index.html#feature">Why Debuge</a></li>
+                           <li><a href="Dbuge_index.html#testimonial">Testimonial</a></li>
+                           <li><a href="Dbuge_index.html#services">Our Service</a></li>
+                           <li><a href="course.html#">Course</a></li>
+                           <li><a href="Dbuge_index.html#footer">Contact Us</a></li>                            
+</ul>
+</nav>
+</div>
+<div id="menuBtn">
+<img src="Img/Screenshot_20210712-150325_Google.jpg" id="menu"></div>
+<div class="form">
+<div class="box">
+<div class="button-box">
+<div id="btn"></div>
+<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+<button type="button" class="toggle-btn" onclick="register()">Register</button>
+</div>
+<div class="social-icon">
+<a href="#https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+<a href="#https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+<a href="#https://twitter.com/login?lang=en"><i class="fa fa-twitter"></i></a>
+<a href="#https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
+</div>
+<form id="login" class="input-group">
+<input type="text" class="input-field" placeholder="User Name" required>
+<input type="text" class="input-field" placeholder="User Login ID" required><br>
+<input type="checkbox" class="chech-box"><span>Remember Password</span>
+<button type="submit" class="submit-btn">Log in</button>
+</form>
+<form id="register" class="input-group">
+<input type="text" class="input-field" placeholder="User Name" required>
+<input type="email" class="input-field" placeholder="Email Id" required>
+<input type="text" class="input-field" placeholder="User Login ID" required><br>
+<input type="checkbox" class="chech-box"><span>I agree to the terms and condition</span>
+<button type="submit" class="submit-btn">Register</button>
+</form>
+</div>
+</div>
+<script>
+var x=document.getElementById("login");
+var y=document.getElementById("register");
+var z=document.getElementById("btn");
+function register(){
+x.style.left="-400px";
+y.style.left="50px";
+z.style.left="110px";
+}
+function login(){
+x.style.left="50px";
+y.style.left="450px";
+z.style.left="0px";
+}
+</script>
+<script>
+var menuBtn=document.getElementById("menuBtn")
+var sideNav=document.getElementById("sideNav")
+var menu=document.getElementById("menu")
+sideNav.style.right="-250px";
+
+menuBtn.onclick=function(){
+if(sideNav.style.right=="-250px"){
+                                    sideNav.style.right="0";
+                                    menu.src="Img/delete.bmp";
+}
+else{
+sideNav.style.right="-250px";
+menu.src="Img/Screenshot_20210712-150325_Google.jpg";
+}
+}
+var scroll=new smoothscroll('a[href*="#"]',{
+speed:100,
+speedAsDuration:true});
+</script>
+</body>
+</html>

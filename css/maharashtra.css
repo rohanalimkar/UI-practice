@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+}
+h1{
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+.namste i{
+    padding: 10px;
+    font-size: 40px;
+    color: orange;
+    border: none;
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+}
+i{
+    border: 5px solid orange;
+    border-left: 7px solid yellow;
+    border-right: 7px solid yellow;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 10px;
+    color: yellow;
+}
+.images img{
+    border: 2px solid black;
+    margin: auto;
+    margin-left: 20%;
+    background-image: linear-gradient(black,black);
+}
+.mymap area{
+    background-color: black;
+}

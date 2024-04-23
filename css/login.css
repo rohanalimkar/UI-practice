@@ -1,0 +1,32 @@
+.img{
+   width: 10%;
+   height: 20%;;
+}
+.container{
+    background-color: aqua;
+
+}
+.container h1{
+padding-left: 50px;
+margin-top: 50px;
+}
+.container h1:hover{
+color: orange;
+}
+.container a{
+    font-weight: bold;
+    text-decoration: none;
+    border: 5px;
+
+}
+.container a:hover{
+    color: orange;
+}
+
+.button{
+    margin-left: 2px;
+    padding: 2px;
+    text-align: center;
+    border-radius :20px;
+    background-color: brown;
+}

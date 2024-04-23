@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 600px;
+    border: 2px solid black;
+    background-image: url(/image/start.jfif);
+    background-size:cover;
+    background-position: center;
+}
