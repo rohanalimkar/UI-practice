@@ -14,8 +14,8 @@ background-color:#95d2b3;
 .home{
     width: 100%;
     min-height: 450px;
-    background-image: url(/image/student.jfif);
-    background-repeat: no-repeat;
+    background-image: url(/image/collage_friend.jpg);
+    background-position: center;
     background-size: cover;
     background-color: aliceblue;
     border: 1px solid #9FE2BF;
