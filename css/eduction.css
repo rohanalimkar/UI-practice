@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color:#95d2b3;
+}
+.Conatiner{
+    width: 60%;
+    min-height: 250px;
+    margin: 10px auto;
+}
+.home{
+    width: 100%;
+    min-height: 450px;
+    background-image: url(/image/student.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aliceblue;
+    border: 1px solid #9FE2BF;
+    border-bottom: none;
+}
+.home h1{
+    margin: 100px auto;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(86, 151, 25);
+}
+.head{
+    width: 40%;
+    /* border: 2px solid rgb(243, 20, 20); */
+    float: left;
+    font-size:medium;
+    padding-left: 5px;
+    color: rgb(103, 135, 74);
+}
+.head1{
+    width: 40%;
+    float: right;
+    /* border: 2px solid rgb(243, 20, 20); */
+    text-align: right;
+    padding-right: 5px;
+    color: rgb(96, 158, 37);
+}
+.diversity{
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    padding: 30px;
+    background-color: aliceblue;
+}
+.diversity h1{
+    color: rgb(96, 158, 37);
+}
+.diversity p{
+    color: rgb(3, 3, 2);
+    padding: 5px;
+}
+.horizotal{
+    width: 85%;
+    justify-content:center;
+    text-align: center;
+    margin-left:60px;
+    border-bottom: 3px solid black;
+    background-color: aliceblue;
+}
+input[type="submit"]
+{   width: 30%;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 10px;
+    background-color: rgb(110, 190, 29);
+    border: none;
+    border-radius: 15px;
+}
+.facilities{
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: aliceblue;
+    /* border: 2px solid rgb(243, 20, 20); */
+}
+.facilities h1{
+    padding-bottom: 20px;
+    color: rgb(96, 158, 37);
+}
+.imaes{
+    width: 100%;
+    min-height: 250px;
+    /* border: 2px solid rgb(32, 19, 215); */
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.imag1{
+    width: 30%;
+    min-height: 100px;
+    /* border: 2px solid rgb(248, 36, 53); */
+}
+.imag1 img{
+    width: 100%;
+    min-height: 100px;
+}
+.imag1 h3{
+    padding-top: 10px;
+    color: rgb(96, 158, 37);
+}
+.imag1 p{
+    padding-bottom: 10px;
+}
+.college{
+width: 100%;
+min-height: 100px;
+/* border: 2px solid red; */
+background-color: aliceblue;
+}
+.college h1{
+    padding-top: 10px;
+    color: rgb(96, 158, 37);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.hailey{
+    width: 100%;
+min-height: 100px;
+/* border: 2px solid rgb(167, 211, 36); */
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+.hailey .imag1{
+    width: 48%;
+    min-height: 100px;
+    /* border: 2px solid red; */
+}
+.imag1 .img{
+    width: 100%;
+    min-height: 100px;
+}
+.imag1 h2{
+    padding-top: 10px;
+    color: rgb(96, 158, 37);
+    text-align: center;
+    padding-bottom: 5px;
+}
+.imag1 p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.imag1 input[type="submit"]
+{   width: 50%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 10px 10px;
+    background-color: rgb(110, 190, 29);
+    border: none;
+    border-radius: 15px;
+}
+.tour{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.content{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.cont{
+    width: 30%;
+    min-height: 100px;
+}
+.cont h2{
+    color: rgb(96, 158, 37);
+    text-align: center;
+}
+.cont p{
+    padding: 10px;
+    text-align: center;
+}
+.vl {
+    border-left: 2px solid black;
+    min-height: 110px;
+}
+.footer{
+    width: 100%;
+    min-height: 190px;
+    background-color: rgb(96, 158, 37);
+}
+.f1{
+    width: 35%;
+    min-height: 190px;
+    float: left;
+    padding: 10px;
+}
+.f1 h3{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
+    color: white;
+}
+.f1 p{
+    color: white;
+}
+.f2{
+    width: 35%;
+    min-height: 100px;
+    float: right;
+    margin-top: 5px;
+    padding: 10px;
+}
+.f2 h3{
+    color: white;
+}
+.f2 p{
+    color: white;
+}
+
+i{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.button2 input[type="submit"]
+{   width: 80%;
+    color: white;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: 10px 10px;
+    background-color: rgb(96, 158, 37);
+    border: 2px solid white;
+    border-radius: 0px;
+}
