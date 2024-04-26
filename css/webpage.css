@@ -206,8 +206,8 @@ padding-right: 30px;
     justify-content: center;
     justify-content: space-between;
 }
-.services_img .image1{
-    width: 39%;
+.services_img.image1{
+    width: 30%;
     min-height: 100px;
     margin: 20px;
 }
