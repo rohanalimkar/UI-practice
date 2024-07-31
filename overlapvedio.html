@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlap Video on text</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        video{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            font-size: 13rem;
+            mix-blend-mode:screen;
+            background-color: whitesmoke;
+            /* background-image: linear-gradient(rgb(0, 42, 255),rgb(13, 237, 241) ); */
+            text-transform: uppercase;
+            -webkit-text-stroke: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+    <video src="/video/4763824-uhd_3840_2160_24fps.mp4" autoplay muted loop>
+      </video>
+      <h1>Nature</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: 50px auto;
+    min-height: 550px;
+    display: grid;
+    grid-template-areas:"header header header"
+                            "sidebar Content1 Content1"
+                            "sidebar Content2 Content3"
+                            "footer footer footer";
+    border: 2px solid black;
+    gap: 10px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 0.3fr 1fr 1fr 0.4fr;
+background-color: rgb(43, 40, 40);
+padding: 10px;
+
+}
+.container > div{
+    border: 2px solid #df0d0d;
+    border-radius: 15px;
+}
+.header{
+    grid-area: header;
+background-color: blueviolet;
+border: 2px solid #000;
+text-align: center;
+padding: 20px 0;
+color: white;
+
+}
+
+.sidebar{
+    grid-area: sidebar;
+background-color:#35c7bd;
+border: 2px solid #000;
+text-align: center;
+padding: 170px 0;
+color: white;
+}
+.Content1{
+    grid-area: Content1;
+    background-image: linear-gradient(140deg,blueviolet,blue,rgb(10, 228, 221));
+    border: 2px solid #000;
+    text-align: center;
+    padding: 70px 0;
+    color: white;
+}
+.Content2{
+    grid-area: Content2;
+    background-image: linear-gradient(140deg,blueviolet,blue,rgb(10, 228, 221));
+border: 2px solid #000;
+text-align: center;
+padding: 70px 0;
+color: white;
+}
+.Content3{
+    grid-area: Content3;
+    background-image: linear-gradient(140deg,blueviolet,blue,rgb(10, 228, 221));
+border: 2px solid #000;
+text-align: center;
+padding: 70px 0;
+color: white;
+}
+.footer{
+    grid-area: footer;
+background-color: blueviolet;
+border: 2px solid #000;
+text-align: center;
+padding: 30px 0;
+color: white;
+}
+@media(max-width:712px)
+{
+    .container{
+    grid-template-areas: "header"
+                         "sidebar"
+                         "Content1"
+                         "Content1 "
+                         " Content2"
+                         "Content3"
+                         "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 0.4fr;
+}
+}

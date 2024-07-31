@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(7, 176, 137),rgb(32, 143, 156));
+}
+.container{
+    background-color: white;
+    margin: 50px auto;
+    width: 80%;
+    min-height: 250px;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+.image{
+    width: 50%;
+    min-height: 100px;
+    background-image: url(/image/phooraphy.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.icon h4{
+    color: white;
+}
+.menu{
+    justify-content: right;
+}
+.titals{
+    margin: 50px auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #343232;
+}
+.footer{
+    padding-bottom: 10px;
+    min-height: 250px;
+    justify-content:center;
+    padding-top: 210px;
+    text-align: center;
+    color: white;
+}
+.registration{
+    width: 45%;
+    min-height: 100px;
+    /* border: 2px solid blue; */
+}
+.box{
+    width: 100%;
+    min-height: 100px;
+    /* border: 2px solid rgb(230, 14, 43); */
+}
+.heading{
+    color: rgb(17, 118, 84);
+    padding: 20px;
+}
+label{
+    width: 100%;
+    text-align: left;
+    justify-content: left;
+    padding-top: 5px;
+}
+.gender{
+    justify-content: center;
+    padding-left: 20px;margin-left: 15px;
+    text-align: left;
+    display: flex;
+}
+.Subscription{
+    display: flex;
+    justify-content: space-around;
+}
+input[type=email]{
+    width: 60%;
+    height: 35px;
+    margin-left: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-left: 15px;
+    padding-top: 2px;
+    background-repeat: no-repeat;
+}
+input[type=text]{
+    width: 60%;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: none; */
+    border-bottom: 2px solid black;
+    padding-left: 75px;
+    padding-top: 2px;
+    background-repeat: no-repeat;
+}
+input[type=date]{
+    justify-content: right;
+    margin-top: 10px;
+    border: 2px solid rgb(15, 16, 15);
+    margin-left: 5px;
+    padding: 5px;
+    height: 35px;
+    width: 252px;
+    /* text-align: left; */
+}
+.Bdate{
+    text-align: left;
+    margin-left: 35px;
+    justify-content: space-between;
+}
+#City{
+    margin-top: 10px;
+    margin-left: 49px;
+    padding: 5px;
+    text-align: center;
+}
+#County{
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 5px;
+    text-align: center;
+}
+.buttons{
+    margin: auto 150px;
+    width: 50%;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    /* padding-left: 75px; */
+}
+input[type=button]{
+    justify-content: center;
+    border: none;
+    padding: 10px 20px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+#Cancel{
+    color: white;
+    background-color: black;
+    text-align: center;
+    justify-content:center;
+}
+#Cancel:hover{
+    color: white;
+    background-color: rgb(17, 118, 84);
+    text-align: center;
+    justify-content:center;
+}
+#confirm{
+    color: white;
+    background-color: rgb(17, 118, 84);
+    text-align: center;
+    justify-content: center;
+}
+#confirm:hover{
+    color: white;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+}

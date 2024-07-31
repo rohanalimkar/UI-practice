@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    width:60%;
+    width:80%;
     min-height: 550px;
     /* border: 2px solid black; */
     margin: auto;
@@ -155,5 +155,6 @@ input[type=submit]{
 .line h4
 {color: gainsboro;
     margin-left: 50px;
+    text-align: center;
 }
 
